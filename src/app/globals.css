@@ -212,10 +212,6 @@ body {
 }
 
 @media (max-width:1024px) {
-  .wrapd {
-    margin-top: 5rem;
-
-  }
 
   .wrap{
     display: none;
