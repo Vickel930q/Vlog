@@ -18,7 +18,7 @@ export async function Checkpage({lineItems}) {
   await stripe.redirectToCheckout({
     mode:"payment",
     lineItems: lineItems,
-    successUrl: "http://localhost:3000/home",
+    successUrl: "https://vikes-logistics.brimble.app/home",
     cancelUrl: window.location.origin
 
   })
