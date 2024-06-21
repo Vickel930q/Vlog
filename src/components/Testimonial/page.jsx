@@ -2,14 +2,13 @@
 import Image from 'next/image'
 import React from 'react'
 import { IoMdQuote } from "react-icons/io";
-import SwiperCore, { Autoplay } from "swiper";
 import { useEffect, useRef } from "react";
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar } from "swiper/modules";
+import {  Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-SwiperCore.use([Autoplay]);
+
 
 export default function Testimonial() {
     const [swiper, setSwiper] = useState(null);
@@ -45,10 +44,8 @@ export default function Testimonial() {
                         loop={true}
                         slidesPerView={1}
                         pagination={{ clickable: true, draggable: true }}
-                        scrollbar={{ draggable: true }}
                         //   onSwiper={(swiper) => console.log(swiper)}
                         onSlideChange={() => console.log("slide change")}
-                        autoplay={{ delay: 1500 }}
 
                     >
 

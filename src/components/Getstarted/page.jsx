@@ -1,11 +1,9 @@
 "use client";
-import { Navigation, Pagination, Scrollbar } from "swiper/modules";
-import React, { createContext } from "react";
-import SwiperCore, { Autoplay } from "swiper";
+import { Pagination } from "swiper/modules";
+import React from "react";
 import { useEffect, useRef } from "react";
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Link from "next/link";
 import styles from './page.module.css'
 import { useRouter } from "next/navigation";
 
