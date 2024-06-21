@@ -1,0 +1,105 @@
+.wrapper{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.co_name h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #FF4800;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.slide_wrapper{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+.slide_content{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slide_text h1{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.slide_text {
+    gap: 30px;
+}
+.slide_text p{
+    line-height: 20px;
+    text-transform: capitalize;
+    font-size: smaller;
+    color: gray;
+    font-family: acumin pro;
+    padding-bottom: 20px;
+}
+
+.get_btn{
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.get_btn button{
+    background-color: #FF4800;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+    transition: all 2s ease;
+    outline: none;
+}
+.get_btn button:hover{
+  border: none;
+ 
+
+
+}
+
+
+.ring,
+.ring:after {
+  box-sizing: border-box;
+}
+.ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6.4px solid currentColor;
+  border-color: currentColor transparent currentColor transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
