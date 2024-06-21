@@ -217,6 +217,10 @@ body {
 
   }
 
+  .wrap{
+    display: none;
+  }
+
   .logout {
     display: block;
     font-size: 20px;
