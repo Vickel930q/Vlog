@@ -192,7 +192,7 @@ body {
   z-index: 100;
   width: 100vw;
   top: 0;
-  /* margin-top: 2rem; */
+  margin-top: 2rem;
   box-shadow: 0px 3px 10px rgb(0, 0, 0);
 }
 
@@ -212,6 +212,10 @@ body {
 }
 
 @media (max-width:1024px) {
+  .wrapd{
+    margin-top: 0;
+    top: 0;
+  }
 
   .wrap{
     display: none;
